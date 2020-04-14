@@ -14,7 +14,7 @@ def equal():
         global expression
         result = str(eval(expression))
         equation.set(result)
-        expression = ""
+        expression = result
 
     except:
         equation.set("Error")
@@ -24,7 +24,7 @@ def sqrt():
     global expression
     result = str(math.sqrt(float(expression)))
     equation.set(result)
-    expression = ""
+    expression = result
 
 def bigger():
     text_size = font_size.cget('size') + 2
