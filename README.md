@@ -1,2 +1,2 @@
 # Simple-Calculator
-for Quiz 8
+Python Programming Course
